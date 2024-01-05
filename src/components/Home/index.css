@@ -1,0 +1,130 @@
+.home_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 369px;
+    width: 468px;
+    margin-top: 61px;
+    margin-left: 120px;
+}
+
+.design {
+  color: #FDC435;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Nunito';
+}
+
+.home_heading {
+  color: #333333;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: 'Playfair Display';
+  margin-top: 0;  
+}
+
+.home_para {
+    color: #828282;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Nunito';  
+    margin-top: -40px;    
+}
+
+.project_button {
+    height: 43px;
+    width: 115px;
+    border-radius: 8px;
+    padding: 8px 24px 8px 24px;
+    background-color: #FDC435;
+    border: none;
+    margin-right: 24px;
+}
+
+.linked_button {
+    height: 43px;
+    width: 117px;
+    border-radius: 8px;
+    padding: 8px 24px 8px 24px;
+    border: 2px solid #25282B;
+    background-color: transparent;
+}
+
+.right_image {
+    width: 590px;
+    height: 629px;
+}
+
+.adding_project_field {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.main_heading {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #25282B;
+    margin-bottom: 40px;
+}
+
+.details_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 445px;
+}
+
+.name_group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.name {
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 16px;
+    color: #25282B;
+    margin-bottom: 10px;
+}
+
+.enter_letters {
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #E8ECF4;
+}
+
+.description_field {
+    width: 400px;
+    height: 160px;
+    border-radius: 8px;
+    border: 1px solid #c0b8b8;
+    outline: none;
+    background: #fff;
+    padding: 5px;  
+}
+
+.add {
+    width: 81px;
+    height: 43px;
+    border-radius: 8px;
+    padding: 8px 24px 8px 24px;
+    background-color: #FDC435;
+    border: none;
+    align-self: flex-end;
+}

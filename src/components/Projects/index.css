@@ -1,0 +1,22 @@
+.projects {
+    margin-top: 50px;
+    background-color: rgb(234, 237, 237);
+}
+
+.project_heading {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #25282B;
+    margin-bottom: 40px;
+}
+
+.project_items {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
