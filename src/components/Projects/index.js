@@ -1,6 +1,7 @@
 import Header from '../Header'
 import ProjectItem from '../ProjectItem'
 import './index.css'
+import ContextProject from '../../ContextProject'
 
 const projectsData = 
 [
@@ -27,6 +28,11 @@ const projectsData =
     ]
 
 const Projects = () => (
+    <ContextProject>
+        {value => {
+            const {projectsList} = value
+            console.log(projectsList)
+            return(
     <div className="project">
         <Header />
         <h1 className="project_heading">Projects</h1>
@@ -35,7 +41,16 @@ const Projects = () => (
                 <ProjectItem key = {each.id} details={each} />
             ))}
         </ul>
+        <ul className="project_items">
+            {projectsList.map(each => (
+                <ProjectItem key = {each.id} details={each} />
+            ))}
+        </ul>
+
     </div>
+)
+    }}
+    </ContextProject>
 )
 
 export default Projects
